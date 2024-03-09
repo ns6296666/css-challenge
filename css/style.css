@@ -21,3 +21,33 @@ h6 {
 p {
   margin: 0;
 }
+header{
+  padding: 1% 4%;
+  background-color:#393E42;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1{
+  background-color:#90CACD;
+  padding: 10px 15px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+nav >ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+nav >ul>li{
+  padding-left:20px ;
+  list-style: none;
+}
+nav >ul>li a{
+color:#90CACD;
+font-size: 20px;
+font-weight: 500;
+text-decoration: none;
+}
